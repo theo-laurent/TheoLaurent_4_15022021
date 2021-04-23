@@ -437,7 +437,6 @@ nav .caret {
 .mg-md {
   margin-top: 10px;
   margin-bottom: 20px;
-  background: blur;
 }
 
 .mg-lg {
@@ -1091,9 +1090,8 @@ h4 {
 }
 
 .lienaccueil:hover {
-  text-decoration: underline!important;
-  color: rgb(248, 68, 68)!important;
-  
+  text-decoration: underline !important;
+  color: rgb(248, 68, 68) !important;
 }
 
 .realisations {
