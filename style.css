@@ -535,7 +535,7 @@ a[data-lightbox] {
   position: relative;
   display: block;
   text-align: center;
-  margin:auto;
+  margin: auto;
   width: 90%;
 }
 
@@ -708,7 +708,6 @@ p {
   justify-content: center;
   width: 60%;
   margin: auto;
-  
 }
 
 h2 {
@@ -859,13 +858,13 @@ h4 {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }
@@ -883,10 +882,7 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
-  }
+
   .bloc-group,
   .bloc-group .bloc {
     display: block;
@@ -895,8 +891,6 @@ h4 {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
   }
 }
 
@@ -1094,12 +1088,12 @@ h4 {
   width: 80%;
 }
 
-.lienaccueil{
-  color: rgb(74, 74, 148)!important;
+.lienaccueil {
+  color: rgb(74, 74, 148) !important;
   text-decoration: none;
   font-size: 18px;
 }
 
-.realisations{
+.realisations {
   font-size: 20px;
 }
