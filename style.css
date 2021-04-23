@@ -91,7 +91,6 @@ a:hover {
 }
 
 .texture-paper::before {
-  background: url("img/texture-paper.png");
   background-size: 280px 280px;
 }
 
@@ -366,7 +365,7 @@ a:hover {
   .site-navigation {
     position: absolute;
     top: 50%;
-    right: 20%;
+    right: 50px;
     transform: translate(0, -50%);
     -webkit-transform: translateY(-50%);
   }
@@ -438,6 +437,7 @@ nav .caret {
 .mg-md {
   margin-top: 10px;
   margin-bottom: 20px;
+  background: blur;
 }
 
 .mg-lg {
@@ -791,6 +791,7 @@ h4 {
 .btn-atomic-tangerine {
   background: #f3976c;
   color: black !important;
+  margin-bottom: 20px;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1035,8 +1036,8 @@ h4 {
 
 @media (max-width: 400px) {
   .bloc {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -1059,9 +1060,6 @@ h4 {
   padding-bottom: 80px;
 }
 
-#form_1 {
-}
-
 .form-group {
   display: flex;
   flex-direction: column;
@@ -1069,8 +1067,6 @@ h4 {
 
 .form-group input {
   border-radius: 10px;
-  margin-top: 10px;
-  margin-bottom: 15px;
   max-width: 500px;
   height: 30px;
   padding-left: 20px;
@@ -1085,15 +1081,28 @@ h4 {
 
 #bloc-7 {
   margin: auto;
-  width: 80%;
+  width: 90%;
 }
 
 .lienaccueil {
   color: rgb(74, 74, 148) !important;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 22px;
+}
+
+.lienaccueil:hover {
+  text-decoration: underline!important;
+  color: rgb(248, 68, 68)!important;
+  
 }
 
 .realisations {
   font-size: 20px;
+}
+
+.formulaire {
+  display: none;
+}
+
+.row {
 }

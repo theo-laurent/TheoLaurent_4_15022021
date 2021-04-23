@@ -2010,10 +2010,6 @@ pre code {
     margin-left: auto
 }
 
-.row {
-    margin-right: -15px;
-    margin-left: -15px
-}
 
 .col-lg-1,
 .col-lg-10,
@@ -3225,7 +3221,7 @@ input[type=search] {
 }
 
 .form-group {
-    margin-bottom: 15px
+    margin-bottom: 0px
 }
 
 .checkbox,
